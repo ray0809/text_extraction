@@ -11,3 +11,12 @@ Includes the following third party code:
   - fast_clustering.cpp Copyright (c) 2011 Daniel Müllner, under the BSD license. http://math.stanford.edu/~muellner/fastcluster.html
   - mser.cpp Copyright (c) 2011 Idiap Research Institute, under the GPL license. http://www.idiap.ch/~cdubout/
   - binomial coefficient approximations are due to Rafael Grompone von Gioi. http://www.ipol.im/pub/art/2012/gjmr-lsd/
+  
+  
+  How to run the code
+  ===============
+  cd text_extraction
+  cmake CMakeLists.txt
+  make
+  then will produce a bin file named 'text_extraction'
+  ./text_extraction your_pic_path
