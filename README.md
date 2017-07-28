@@ -16,7 +16,11 @@ Includes the following third party code:
   How to run the code
   ===============
   cd text_extraction
+  
   cmake CMakeLists.txt
+  
   make
+  
   then will produce a bin file named 'text_extraction'
+  
   ./text_extraction your_pic_path
